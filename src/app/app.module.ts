@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { ErrorComponent } from './error/error.component';
 import { AppRoutingModule } from './shared/app.routing';
 
+import { ChartModule } from 'angular2-highcharts';
 import { restService } from './rest.service';
 
 @NgModule({
@@ -15,6 +16,7 @@ import { restService } from './rest.service';
         BrowserModule,
         AppRoutingModule,
         HttpModule,
+        ChartModule.forRoot(require('highcharts'))
     ],
     declarations: [
         AppComponent,

@@ -1,7 +1,10 @@
-DOJO WEB
+Toptal Starter
 =========
 
-[TOC]
+[Description](#Description)
+[Installation Guide](#Installation-Guide)
+[Running the project](#Running-the-project)
+[Documentations](#Documentations)
 
 ## Description
 
@@ -59,17 +62,28 @@ rimraf dist && webpack --config config/webpack.prod.js --progress --profile --ba
 ## Documentations
 
 Here, I provided the links to documentations for packages used in the project:
+http://devdocs.io/
 
 ### Angular JS
+https://angular.io/docs
+https://angular.io/guide/router
 
 ### Zurb Foundation
+http://foundation.zurb.com/sites/docs/
 
 ### WebPack
+https://webpack.github.io/docs/
 
 ### Karma
+https://docs.angularjs.org/guide/unit-testing
 
 ### Jasmin
+https://jasmine.github.io/
 
 ### Highcharts
+https://www.npmjs.com/package/angular2-highcharts
+https://www.highcharts.com/docs
 
-###
+### Underscore
+http://underscorejs.org/
+

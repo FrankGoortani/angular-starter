@@ -9,6 +9,6 @@ export class restService{
 
     getData(){
         //testing http get
-        return this.http.get('https://requestb.in/1jwoiga1').map(res => res.json());
+        return this.http.get('https://testtoptal.stamplayapp.com/api/cobject/v1/test?populate=true').map(res => res.json());
     }
 }
