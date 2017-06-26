@@ -1,0 +1,13 @@
+.hero {
+    width: 100%;
+}
+
+.row {
+    margin:1em;
+}
+
+chart {
+    width: 100% !important;
+    margin: 0 auto;
+    display: block;
+}

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { restService } from '../rest.service';
 import {Observable} from "rxjs/Observable";
 
-// import * as _ from 'underscore';
+import * as _ from 'underscore';
 
 
 @Component({
@@ -35,6 +35,8 @@ export class HomeComponent {
                 dashStyle: 'longdash'
             }]
         };
+
+        console.log('now: ', _.now()); //testing underscore
     }
 }
 

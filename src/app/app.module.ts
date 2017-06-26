@@ -7,6 +7,8 @@ import { NavComponent } from './shared/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { ErrorComponent } from './error/error.component';
 import { AppRoutingModule } from './shared/app.routing';
+import { SecondPageComponent } from './second-page/second.component';
+
 
 import { ChartModule } from 'angular2-highcharts';
 import { restService } from './rest.service';
@@ -22,7 +24,8 @@ import { restService } from './rest.service';
         AppComponent,
         NavComponent,
         HomeComponent,
-        ErrorComponent
+        ErrorComponent,
+        SecondPageComponent
     ],
     bootstrap: [ AppComponent ],
     providers: [ restService ]

@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
                     <div class="top-bar-title">Toptal Starter Project</div>
                     <div>
                         <ul class="menu">
-                            <li class="nav-menu"><a href="#">Settings</a></li>
+                            <li class="nav-menu"><a href="#">Home</a></li>
                         </ul>
                     </div>
                 </div>
